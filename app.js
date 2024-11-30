@@ -2,7 +2,7 @@
 // Create a function that takes two arguments as functions and return their sum
 
 function addition(num1, num2) {
-    return num1 + num2
+    return num1 + num2;
 }
 console.log(addition(3, 5));
 
@@ -39,3 +39,11 @@ function appendFrontend(string) {
 }
 console.log(appendFrontend('Apple'));
 
+// 6.Greater than 100?
+// Given two numbers, return true if the sum of both numbers is greater than 100.
+// Otherwise, return false
+
+function sumGreaterThan100(num1, num2) {
+    return num1 + num2 > 100;
+}
+console.log(sumGreaterThan100(60, 50));
