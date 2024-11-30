@@ -15,3 +15,11 @@ function hoursIntoSeconds(hour) {
 }
 console.log(hoursIntoSeconds(2));
 
+// 3.Calculate the perimeter of a rectangle
+// Create a function that takes lenght and width of a rectangle and return it's perimeter
+
+function calcPerimeter(lenght, width) {
+  return lenght * 2 + width * 2;
+}
+console.log(calcPerimeter(10, 20));
+
