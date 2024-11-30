@@ -23,3 +23,11 @@ function calcPerimeter(lenght, width) {
 }
 console.log(calcPerimeter(10, 20));
 
+// 4. Calculate the area of the triangle
+// Write a function that takes the base and height of a triangle and return it's area
+
+function calcAreaOfTriangle(base, height) {
+    return 0.5 * base * height;
+}
+console.log(calcAreaOfTriangle(20, 20));
+
