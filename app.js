@@ -107,3 +107,12 @@ function isLoggedInAndSubscribed(loggedIn, subscribed) {
 }
 console.log(isLoggedInAndSubscribed('LOGGED_IN', 'SUBSCRIBED'));
 
+// 14. Check if a user is logged in Or subscribed
+// Create a function that takes in two strings. If the first string is equal to "LOGGED_IN" or
+// the second string is equal to "SUBSCRIBED" return true
+// Otherwise return false
+
+function isLoggedInAndSubscribed(loggedIn, subscribed) {
+    return (loggedIn === 'LOGGED_IN') || (subscribed === 'SUBSCRIBED');
+}
+console.log(isLoggedInAndSubscribed('LOGGED_IN', 'SUBSCRIBED'));
