@@ -56,3 +56,11 @@ function lessThanOrEqualToZero(number){
 }
 console.log(lessThanOrEqualToZero(3));
 
+// 8. Opposite boolean
+// Given a boolean (true or false), return the opposite boolean
+
+function oppositeBoolean(bool) {
+    return !bool ;
+}
+console.log(oppositeBoolean(true));
+
