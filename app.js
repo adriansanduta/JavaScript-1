@@ -64,3 +64,10 @@ function oppositeBoolean(bool) {
 }
 console.log(oppositeBoolean(true));
 
+// 9. Is not the number 0
+// Given any element, return true if it's not the number 0
+
+function isNotZero(element) {
+    return element !== 0;
+}
+console.log(isNotZero(5));
