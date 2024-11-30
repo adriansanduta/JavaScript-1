@@ -71,3 +71,12 @@ function isNotZero(element) {
     return element !== 0;
 }
 console.log(isNotZero(5));
+
+// 10. Calculate the remainder
+// Given two numbers, return their remainder when divided by each other
+
+function calcRemainder(num1, num2) {
+    return num1 % num2;
+}
+console.log(calcRemainder(7, 8));
+
