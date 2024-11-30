@@ -31,3 +31,11 @@ function calcAreaOfTriangle(base, height) {
 }
 console.log(calcAreaOfTriangle(20, 20));
 
+// 5.Extend a string
+// Write a function that accepts a string and adds 'Frontend' onto the end of it
+
+function appendFrontend(string) {
+    return string + "Frontend";
+}
+console.log(appendFrontend('Apple'));
+
