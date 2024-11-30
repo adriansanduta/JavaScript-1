@@ -80,3 +80,11 @@ function calcRemainder(num1, num2) {
 }
 console.log(calcRemainder(7, 8));
 
+// 11. Is the number odd?
+// Given one number, return true if the number is odd
+
+function isOdd(num) {
+    return num % 2 !== 0;
+}
+console.log(isOdd(3));
+
