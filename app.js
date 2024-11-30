@@ -47,3 +47,12 @@ function sumGreaterThan100(num1, num2) {
     return num1 + num2 > 100;
 }
 console.log(sumGreaterThan100(60, 50));
+
+// 7.Less than or Equal to Zero?
+// Write a function that accepts a number and returns true if it's less than or equal to zero, otherwise return false
+
+function lessThanOrEqualToZero(number){
+    return number <= 0;
+}
+console.log(lessThanOrEqualToZero(3));
+
