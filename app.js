@@ -7,3 +7,11 @@ function addition(num1, num2) {
 console.log(addition(3, 5));
 
 
+// 2. Convert hours into seconds
+// Create a function that converts hours into seconds
+
+function hoursIntoSeconds(hour) {
+    return hour * 60 * 60;
+}
+console.log(hoursIntoSeconds(2));
+
